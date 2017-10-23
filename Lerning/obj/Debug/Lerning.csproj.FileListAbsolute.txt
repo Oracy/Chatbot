@@ -1,0 +1,88 @@
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Bot Application.dll.config
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Bot Application.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Bot Application.pdb
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Autofac.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Chronic.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.Bot.Builder.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.Bot.Connector.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Newtonsoft.Json.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\System.Net.Http.Formatting.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\System.Web.Http.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\System.Web.Http.WebHost.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Autofac.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.Bot.Builder.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.Bot.Connector.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\Newtonsoft.Json.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\System.Net.Http.Formatting.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\System.Web.Http.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\System.Web.Http.WebHost.xml
+C:\Users\orama\source\repos\Lerning\Lerning\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\it\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\nl\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Lerning\Lerning\obj\Debug\Lerning.csprojResolveAssemblyReference.cache
+C:\Users\orama\source\repos\Lerning\Lerning\obj\Debug\Lerning.csproj.CoreCompileInputs.cache
+C:\Users\orama\source\repos\Lerning\Lerning\obj\Debug\Bot Application.dll
+C:\Users\orama\source\repos\Lerning\Lerning\obj\Debug\Bot Application.pdb
+C:\Users\orama\source\repos\Learning\Lerning\bin\Bot Application.dll.config
+C:\Users\orama\source\repos\Learning\Lerning\bin\Bot Application.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Bot Application.pdb
+C:\Users\orama\source\repos\Learning\Lerning\bin\Autofac.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Chronic.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.Bot.Builder.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.Bot.Connector.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Newtonsoft.Json.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\System.Net.Http.Formatting.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\System.Web.Http.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\System.Web.Http.WebHost.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\Autofac.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.Bot.Builder.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.Bot.Connector.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\Newtonsoft.Json.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\System.Net.Http.Formatting.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\System.Web.Http.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\System.Web.Http.WebHost.xml
+C:\Users\orama\source\repos\Learning\Lerning\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\it\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\nl\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\orama\source\repos\Learning\Lerning\obj\Debug\Lerning.csprojResolveAssemblyReference.cache
+C:\Users\orama\source\repos\Learning\Lerning\obj\Debug\Lerning.csproj.CoreCompileInputs.cache
+C:\Users\orama\source\repos\Learning\Lerning\obj\Debug\Bot Application.dll
+C:\Users\orama\source\repos\Learning\Lerning\obj\Debug\Bot Application.pdb
