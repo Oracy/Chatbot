@@ -23,3 +23,12 @@ CREATE TABLE Notas
         REFERENCES Aluno(ID)
 
 
+
+
+import collections, re
+texts = ['John likes to watch movies. Mary likes too.', 'John also likes to watch football games.']
+bagsofwords = [ collections.Counter(re.findall(r'\w+', txt)) for txt in texts]
+bagsofwords[0]
+bagsofwords[1]
+sumbags = sum(bagsofwords, collections.Counter())
+sumbags
