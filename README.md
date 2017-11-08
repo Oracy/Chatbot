@@ -54,29 +54,66 @@ array([[ 1.,  2.],
        
        
        
+# Import libs to work
 import numpy as np
 from sklearn.naive_bayes import GaussianNB
 
+# Create two numpy array
+x = np.array()
+y = np.array()
 
-x = np.array([])
+# Create a var that get the how much file will be use to train
+with open('Training_Files_Ok.txt') as training:
+      train = len(training.readlines())
 
+# Create a var that get the how much file will be use to train
+with open('Training_Files_NOk.txt') as training:
+      train = len(training.readlines())
 
+# Append the files that is classified to group 1 (Yes) 
 for i in range(1, train):
-    with open('data.txt', 'r') as myfile:
-        data_I=myfile.read().replace('\n', '')
-        x = [d]
+    with open('Training_Files_Ok.txt') as tf:
+        for line in tf:
+            data=myfile.read().replace('\n', '')
+            x.append(data)
+            y.append(1)
 
-for 
+# Append the files that is classified to group 2 (No) 
+for i in range(1, train):
+    with open('Training_Files_NOk.txt') as tf:
+        for line in tf:
+            data=myfile.read().replace('\n', '')
+            x.append(data)
+            y.append(2)
+        
+#X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
+#Y = np.array([1, 1, 1, 2, 2, 2])
 
-X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
-Y = np.array([1, 1, 1, 2, 2, 2])
+# Create a Gaussian Classifier
+model = GaussianNB()
 
-clf = GaussianNB()
-clf.fit(X, Y)
-print(clf.predict([[-0.8, -1]]))
-clf_pf = GaussianNB()
-clf_pf.partial_fit(X, Y, np.unique(Y))
-print(clf_pf.predict([[-0.8, -1]]))
+# Train the model using the training sets 
+model.fit(X, Y)
+
+
+
+
+
+# Create a var that get the how much file will be use to test
+with open('Test_Files.txt') as testing:
+      train = len(testing.readlines())
+
+# Append the files that will be test 
+for i in range(1, train):
+    with open('Test_Files.txt') as tf:
+        for line in tf:
+            data=myfile.read().replace('\n', '')
+            x.append(data)
+
+
+#print(model.predict([[-0.8, -1]]))
+for i in range(1, )
+print(model.predict())
 
 
 
