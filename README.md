@@ -121,21 +121,37 @@ print(model.predict())
 
 
 Sexta 
+
 13:30h Credenciamento
+
 14h WarmUP
+
 14:30 Painel de abertura
+
 15:45 Network
+
 16h Inteligencia e computação cognitiva, analise de dados em midias sociais, analytics
+
 17h Marketing digital que gera resultados reais, neuromarketing
+
 18h Marketing digital que gera resultados reais, marketing digital para startups, vendas para as startups
+
 19h Como tirar ideias do papel
+
 20h ...
+
 21h Network
+
 Sábado
+
 08:30 Credenciamento
+
 09h Onde nascem as ideias do amanhã
+
 10h Design Sprint - Pratique os 5 passos da metodologia Google para inovação, Como ser um influenciador digital, feel in the future.
+
 11h Como nascer global.
+
 
 
 
