@@ -136,3 +136,78 @@ Sábado
 09h Onde nascem as ideias do amanhã
 10h Design Sprint - Pratique os 5 passos da metodologia Google para inovação, Como ser um influenciador digital, feel in the future.
 11h Como nascer global.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Import libs to work
+import numpy as np
+from sklearn.naive_bayes import GaussianNB
+import timeit
+
+timeit.timeit(
+    # Create two numpy array to train
+    trainB = np.array([])
+    trainA = np.array([])
+
+    # Create one numpy array to test
+    testB = np.array([])
+
+    # Create a var that get the how much file will be use to train
+    with open('Training_Files_Ok.txt') as training:
+        train = len(training.readlines())
+
+    # Create a var that get the how much file will be use to train
+    with open('Training_Files_NOk.txt') as training:
+        train = len(training.readlines())
+
+    # Append the files that is classified to group 1 (Yes) 
+    for i in range(1, train):
+        with open('Training_Files_Ok.txt') as tf:
+            for line in tf:
+                data=myfile.read().replace('\n', '')
+                x.append(data)
+                y.append(1)
+
+    # Append the files that is classified to group 2 (No) 
+    for i in range(1, train):
+        with open('Training_Files_NOk.txt') as tf:
+            for line in tf:
+                data=myfile.read().replace('\n', '')
+                x.append(data)
+                y.append(2)
+            
+    # X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
+    # Y = np.array([1, 1, 1, 2, 2, 2])
+
+    # Create a Gaussian Classifier
+    model = GaussianNB()
+
+    # Train the model using the training sets 
+    model.fit(X, Y)
+
+    # Create a var that get the how much file will be use to test
+    with open('Test_Files.txt') as testing:
+        test = len(testing.readlines())
+
+    # Append the files that will be test 
+    for i in range(1, test):eu
+        with open('Test_Files.txt') as tf:
+            for line in tf:
+                data=myfile.read().replace('\n', '')
+                x.append(data)
+
+
+    # print(model.predict([[-0.8, -1]]))
+    for i in range(1, test)
+        print(model.predict([x[i]]))
+)
