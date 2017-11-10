@@ -1,5 +1,5 @@
 SOBE
-
+```sql
 CREATE TABLE Disciplina
     ID INT NOT NULL,
     Nome Varchar(40),
@@ -21,10 +21,10 @@ CREATE TABLE Notas
         REFERENCES Disciplina(ID),
     FOREIGN KEY (Aluno_ID)
         REFERENCES Aluno(ID)
+```
 
 
-
-
+```python
 import collections, re
 texts = ['John likes to watch movies. Mary likes too.', 'John also likes to watch football games.']
 bagsofwords = [ collections.Counter(re.findall(r'\w+', txt)) for txt in texts]
@@ -47,13 +47,13 @@ array([0, 1], dtype=int32)
 >>> kmeans.cluster_centers_
 array([[ 1.,  2.],
        [ 4.,  2.]])
-       
+```       
        http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
        
        
        
        
-       
+```python   
 # Import libs to work
 import numpy as np
 from sklearn.naive_bayes import GaussianNB
@@ -114,7 +114,7 @@ for i in range(1, train):
 #print(model.predict([[-0.8, -1]]))
 for i in range(1, )
 print(model.predict())
-
+```
 
 
 
@@ -148,7 +148,7 @@ Sábado
 
 
 
-
+```python
 # Import libs to work
 import numpy as np
 from sklearn.naive_bayes import GaussianNB
@@ -211,3 +211,4 @@ timeit.timeit(
     for i in range(1, test)
         print(model.predict([x[i]]))
 )
+```
