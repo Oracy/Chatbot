@@ -228,3 +228,6 @@ timeit.timeit(
         print(model.predict([x[i]]))
 )
 ```
+
+
+http://ankitbko.github.io/2016/08/ChatBot-using-Microsoft-Bot-Framework-Part-1
