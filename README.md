@@ -231,3 +231,6 @@ timeit.timeit(
 
 
 http://ankitbko.github.io/2016/08/ChatBot-using-Microsoft-Bot-Framework-Part-1
+
+
+O objetivo deste paper é criar um framework para auxiliar as empresas de um modo em que mudassem o mindset para Data Driven Decision, através deste roadmap desenvolvido pelos pesquisadores.
