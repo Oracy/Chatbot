@@ -188,3 +188,155 @@ namespace Bot_Application1.Dialogs
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+using System.Net;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Web.Http;
+using Microsoft.Bot.Builder.Dialogs;
+using Microsoft.Bot.Connector;
+
+namespace Bot_Application1
+{
+    [BotAuthentication]
+    public class MessagesController : ApiController
+    {
+        /// <summary>
+        /// POST: api/Messages
+        /// Receive a message from a user and reply to it
+        /// </summary>
+        public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
+        {
+            if (activity.Type == ActivityTypes.Message)
+            {
+                await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
+            }
+            else
+            {
+                HandleSystemMessage(activity);
+            }
+            var response = Request.CreateResponse(HttpStatusCode.OK);
+            return response;
+        }
+
+        private Activity HandleSystemMessage(Activity message)
+        {
+            if (message.Type == ActivityTypes.DeleteUserData)
+            {
+                // Implement user deletion here
+                // If we handle user deletion, return a real message
+            }
+            else if (message.Type == ActivityTypes.ConversationUpdate)
+            {
+                // Handle conversation state changes, like members being added and removed
+                // Use Activity.MembersAdded and Activity.MembersRemoved and Activity.Action for info
+                // Not available in all channels
+            }
+            else if (message.Type == ActivityTypes.ContactRelationUpdate)
+            {
+                // Handle add/remove from contact lists
+                // Activity.From + Activity.Action represent what happened
+            }
+            else if (message.Type == ActivityTypes.Typing)
+            {
+                // Handle knowing tha the user is typing
+            }
+            else if (message.Type == ActivityTypes.Ping)
+            {                
+            }
+
+            return null;
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Web;
+using Microsoft.Bot.Builder.Dialogs;
+using Microsoft.Bot.Builder.FormFlow;
+using Microsoft.Bot.Builder.Luis;
+using Microsoft.Bot.Builder.Luis.Models;
+using Microsoft.Bot.Connector;
+
+namespace Bot_Application1.Dialogs
+{
+    [LuisModel("13801d36-6581-473b-b027-de9f42b3eac8", "1d1c7b400e204561a89265c35c922aed")]
+    [Serializable]
+
+    public class RootDialog : LuisDialog<object>
+    {
+        /*
+        public Task StartAsync(IDialogContext context)
+        {
+            context.Wait(MessageReceivedAsync);
+
+            return Task.CompletedTask;
+        }
+
+        private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<object> result)
+        {
+            var activity = await result as Activity;
+
+            // calculate something for us to return
+            int length = (activity.Text ?? string.Empty).Length;
+
+            // return our reply to the user
+            await context.PostAsync($"You sent {activity.Text} which was {length} characters");
+
+            context.Wait(MessageReceivedAsync);
+        }
+        
+
+        [LuisIntent("None")]
+        public async Task None(IDialogContext context, IAwaitable<IMessageActivity> activity, LuisResult result)
+        {
+            await context.PostAsync($@"You are in Intent");
+
+            context.Wait(MessageReceivedAsync);
+        }
+    }
+    */
+        [LuisIntent("")]
+        [LuisIntent("None")]
+        public async Task None(IDialogContext context, LuisResult result)
+        {
+            string message = $"Sorry, I did not understand '{result.Query}'. Type 'help' if you need assistance.";
+
+            await context.PostAsync(message);
+
+            context.Wait(this.MessageReceived);
+        }
+
+        [LuisIntent("greetings")]
+        public async Task greeting(IDialogContext context, LuisResult result)
+        {
+            string message = $"Você disse: '{result.Query}'. Olá para você.";
+
+            await context.PostAsync(message);
+
+            context.Wait(this.MessageReceived);
+        }
+    }
+}
+
+
+
+
