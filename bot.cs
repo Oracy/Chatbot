@@ -340,3 +340,106 @@ namespace Bot_Application1.Dialogs
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[LuisIntent("")]
+        [LuisIntent("None")]
+        public async Task None(IDialogContext context, LuisResult result)
+        {
+            string message = $"Desculpa, Não consegui entender o que você quis dizer com: '{result.Query}'. Digite 'Ajuda', e eu vou tentar te ajudar.";
+
+            await context.PostAsync(message);
+        }
+
+        [LuisIntent("Greeting")]
+        public async Task Greeting(IDialogContext context, LuisResult result)
+        {
+            string message = "ClearGreeting";
+            try
+            {
+                if ((context.Activity.LocalTimestamp.Value.UtcDateTime.TimeOfDay.Hours) < 13)
+                {
+                    message = $"Bom dia '{context.Activity.From.Name}', ta tudo bem contigo hoje?";
+                }
+                else if ((context.Activity.LocalTimestamp.Value.UtcDateTime.TimeOfDay.Hours) < 20)
+                {
+                    message = $"Boa tarde '{context.Activity.From.Name}', ta tudo bem contigo hoje?";
+                }
+                else
+                {
+                    message = $"Boa noite '{context.Activity.From.Name}', ta tudo bem contigo hoje?";
+                }
+            }catch(InvalidIntentHandlerException e)
+            {
+                message = "Deu pau no sisteminha amigo.";
+            }
+            
+
+            await context.PostAsync(message);
+        }
+
+        [LuisIntent("DeliveryTax")]
+        public async Task DeliveryTax(IDialogContext context, LuisResult result)
+        {
+            string message = "ClearDeliveryTax";
+
+            message = "Para pedidos abaixo de 50 reais, hoje cobramos uma taxa de 10 reais. Porém isso pode mudar quando tivermos um fluxo maior de usuários utilizando o aplicativo e o frete seja por nossa conta para voces ;)";
+            await context.PostAsync(message);
+        }
+
+        [LuisIntent("Deadline")]
+        public async Task Deadline(IDialogContext context, LuisResult result)
+        {
+            string message = "ClearDeadline";
+
+            message = "O prazo final de devolução é de 72 horas ou 3 dias (:p) após a coleta.";
+
+            await context.PostAsync(message);
+        }
+
+        [LuisIntent("Gathering")]
+        public async Task Gathering(IDialogContext context, LuisResult result)
+        {
+            string message = "ClearGathering";
+
+            message = "Hoje nós estamos coletando roupas nas segundas e quintas, das 18h as 22h... Maaas, quando estivermos maiores, todo dia será dia de lavar roupa ;)";
+
+            await context.PostAsync(message);
+        }
+
+        [LuisIntent("Plan")]
+        public async Task Plan(IDialogContext context, LuisResult result)
+        {
+            string message = "ClearPlan";
+
+            message = "No momento estamos com nossos planos dentro da lava roupa, assim que eles estiverem dobrados e pronto para uso, avisaremos você. Tem alguma ideia de como você gostaria do plano? Solteiro, casado, empresa... E um contato para podermos te avisar em primeira mão assim que sair os planos!!!";
+
+            await context.PostAsync(message);
+        }
+
+        [LuisIntent("Price")]
+        public async Task Price(IDialogContext context, LuisResult result)
+        {
+            string message = "ClearPrice";
+
+            message = "Analisar esta resposta de acordo com preços, se houver como trazer o preço da peça de acordo com o cep da pessoa.";
+
+            await context.PostAsync(message);
+        }
