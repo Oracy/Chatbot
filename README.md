@@ -232,5 +232,24 @@ timeit.timeit(
 
 http://ankitbko.github.io/2016/08/ChatBot-using-Microsoft-Bot-Framework-Part-1
 
+```javascript
+var request = require('request')
+var cheerio = require('cheerio')
+var fs = require('fs')
 
-O objetivo deste paper é criar um framework para auxiliar as empresas de um modo em que mudassem o mindset para Data Driven Decision, através deste roadmap desenvolvido pelos pesquisadores.
+request('https://www.guiamais.com.br/curitiba-pr/limpezas-diversas/lavanderias', function (err, res, body) {
+    if (err) console.log('Err: ' + err)
+
+    var $ = cheerio.load(body);
+
+    $('.silver card left').each(function(){
+        var name = $(this).find('.aTitle a').text().trim()
+        var place = $(this).find('.advAdress span').text().trim()
+        var tel = $(this).find('.advPhone li').text().trim()
+
+        console.log('Name: ' + name)
+
+        fs.appendFile('lavanderias.txt', name + ' ' + place + ' ' + tel + '\n')
+    })
+})
+```
