@@ -253,3 +253,6 @@ request('https://www.guiamais.com.br/curitiba-pr/limpezas-diversas/lavanderias',
     })
 })
 ```
+
+
+http://www.gazetadopovo.com.br/economia/livre-iniciativa/empreender/evento-empreender-gazeta-do-povo-tera-palestra-com-executivo-da-cisco-9a5r7ad3vva5ic04lobzabl32
