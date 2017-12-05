@@ -249,7 +249,7 @@ request('https://www.guiamais.com.br/curitiba-pr/limpezas-diversas/lavanderias',
 
         console.log('Name: ' + name)
 
-        fs.appendFile('lavanderias.txt', name + ' ' + place + ' ' + tel + '\n')
+        fs.appendFile('lavanderias.txt', 'Nome: ' + name + ' ' + 'Endereço: ' + place + ' ' + 'Telefone: ' + tel + '\n')
     })
 })
 ```
