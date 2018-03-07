@@ -1,0 +1,226 @@
+Probabilidade : Estudo de aleatoriedade da incerteza. Utiliza métodos de quantificação das chances associadas aos diversos resultados.
+    - "Lançamento da moeda";
+    - "Carta do baralho";
+    - "Estatística do tempo".
+
+Estatística Descritiva : Utiliza métodos para coleta, organização, apresentação, análise e síntese de dados obtidos em uma população ou amostra.
+Fornecer uma descrição que realça algumas características de um conjunto de dados numéricos. Simplesmente sumarizar e mostrar dados que possam rapidamente levar a alguma conclusão.
+    - "Como determinar o grau de escolaridade de uma determinada classe social?";
+    - "Qual o sexo dessa classe social tem maior grau de escolaridade?";
+    - "Quais os livros mais lidos por essa classe social?";
+    - "Quais as suas preferências alimentares?".
+É preciso estruturar os procedimentos para realizar as análises e obter as informações para facilitar a sumarização dos dados obtidos em uma pesquisa.
+
+Estatística Inferencial : É o processo de estimar informações sobre uma população a partir dos resultados observados numa amostra.
+Visa analizar uma sessão menor do conjunto de dados, e tentar deduzir algo significativo sob o conjunto de dados maior.
+Está fundamentada na teoria das probabilidades, se preocupa na análise de dados e sua interpretação.
+    - "Tempo de conclusão do ensino médio para determinada classe social.";
+        · Nesse caso nós aplicamos os princípios da estatística descritiva numa amostra e usamos esse resultado para fazer a estatística inferencial. Você deve procurar entender esses valores e o comportamento da população.
+        · Ao final fazemos o levantamento a partir dos resultados e obtemos o tempo de conclusão. 
+A coleta, a organização e a descrição dos dados estão a cargo da ESTATÍSTICA DESCRITIVA, enquanto a análise e a interpretação dos dados ficam a cargo da ESTATÍSTICA INFERENCIAL.
+
+ESTATÍSTICA é a CIÊNCIA, parte da MATEMÁTICA APLICADA, que fornece métodos para COLETAR, DESCREVER, ANALISAR, APRESENTAR e interpretar dados, para a utilização dos mesmos na TOMADA DE DECISÕES.
+
+---------------------------------------------------------------------
+População x Amostra
+
+População : São todos os elementos distintos, indivíduos, itens ou objetos - cujas as características estejam sendo estudadas.
+População Alvo.
+
+Amostra : É uma parte da população. Ela é coletada a partir da população.
+
+Exemplo: Pesquisa Eleitoral: Os institutos de pesquisa, examinam uma amostra e a partir disso, deduzem informações sobre toda a população.
+
+Parâmetro - Características sobre a população. Valores calculados usando dados da população são chamados de PARÂMETRO.
+
+Estatística - Características sobre a amostra. Valores calculados usando dados da amostra são chamados de ESTATÍSTICA.
+
+Estatística Inferencial : Realiza deduções e conclusões sobre a população, baseados nos resultados obtidos da análise da amostra.
+
+    • Custo
+    • Tempo
+    • Necessidade 
+
+---------------------------------------------------------------------
+Observações x Variáveis
+Dado: Valores coletados através de observação ou medição.
+Informação: Dados que são transformados em fatos relevantes e usados para um propósito específico.
+
+
+Dados Primários:
+    • Coletados por quem faz a análise;
+    • Confiáveis; ***** 
+    • Possuem maior controle.
+Vantagens: 
+    • Confiabilidade;
+    • Qualidade;
+    • Controle das informações;
+    • Acertabilidade nos resultados;
+    • Dados Atualizados.
+Desvantagens:
+    • Alto custo;******
+    • Demanda tempo maior;******
+    • Equipe maior.******
+
+
+Dados Secundários:
+    • Coletados por terceiros;
+    • Não Confiáveis;
+    • Não possuem muito controle.
+Vantagens:
+    • Baixo custo;******
+    • Rapidez;
+    • Existência de diversas fontes
+    • Diversidade de informações para quantificação de questões.
+Desvantagens:
+    • Falta de controle;
+    • Dados inadequados;
+    • Diversidade na classificação dos dados;
+    • Dados desatualizados;
+    • Fontes não Confiáveis;******
+    • Dificuldade de reproduzir um estudo obtendo os mesmos resultados.
+
+(Linhas)Observação : Uma observação é uma ocorrência de um item de dados específico que é gravada sobre uma unidade de dados.
+(Colunas)Variável : Variável é a característica de interesse que é medida em cada elemento da amostra ou população. Como o nome diz, seus valores variam de elemento para elemento. As variáveis podem ter valores numéricos ou não numéricos.
+
+Qualitativas : Utilizam termos DESCRITIVOS para descrever algo de interesse. Ex: cor dos olhos, estado civil, religião, sexo, grau de escolaridade, classe social, tipo sanguíneo, cor da pele.
+Quantitativas : Representados por valores numéricos que podem ser CONTADOS ou MEDIDOS. Ex: número de crianças em uma sala de aula, peso do corpo humano, idade, número de filhos, etc.
+
+Qualitativas - Nominais: não há uma ordem natural: Profissão, Sexo, Religião - Ordinais: Há uma ordem natural: Escolaridade, Classe Social, Fila.
+
+Quantitativas - Discreta: Podem ser contáveis: Número de filhos, Número de carros, número de acessos - Contínuas: Podem ser observadas dentro de um intervalo de valor: Altura, Peso, Salário.
+
+Idade = QUANTITATIVO (1, 2, 3, 4)
+Idade = QUALITATIVO(ORDINAL) (0-5,6-12,13-18,19-28)
+
+Podemos conduzir basicamente 2 tipos de estudos quando analisamos dados:
+Observação: Coletamos os dados sem interferir diretamente na geração destes dados, passado(retrospectiva), presente(prospectiva).
+Experimento: Gerar massa de dados associadas a determinado assunto como forma de estabelecer conexões casuais.
+---------------------------------------------------------------------
+Média x Mediana x Moda x Variância x Desvio Padrão
+
+Medidas de Tendência Central (Média, Mediana, Moda)
+Medidas de Dispersão (Variância e Desvio Padrão)
+
+Medidas de Tendência Central : Elas são utilizadas para caracterizar um conjunto de valores, representando-os adequadamente (Tenderá estar no meio dos valores).
+
+Sem dúvida, MÉDIAS são as formas mais simples de identificar tendências em um conjunto de dados.
+Média: Soma de todos os valores, divididos pela quantidade de observações. Ex.: (1+2+3+4)/4 = 2.5
+MEDIANA é o valor no conjunto de dados, em que mostra o valor do meio em uma amostra de informações.
+Mediana: Valores do meio da quantidade total de dados de uma forma crescente. Ex.: 1, 2, 3, 4, 5 = 3
+Caso não haja um valor central, então tiramos a média dos dois valores para encontrar um meio. Ex.: 1, 2, 3, 4, 5, 6 = 3+4/2 = 3.5
+MODA é o valor que aparece mais frequentemente no conjunto de dados.
+Moda: quanto mais números repetidos, será aquele número. Ex.: 1, 2, 3, 4, 1, 5, 1, 3, 1, 23, 5 = 1
+
+Uma maneira de descrever um conjunto de dados, é através de MEDIDAS DE DISPERSÃO. Elas descrevem a amplitude dos dados, ou seja, quão espalhados os dados estão dentro de um conjunto.
+Uma MEDIDA DE DISPERSÃO muito útil, é a variância, que é determinada utilizando todos os dados do conjunto de dados.
+
+Variância : Mede a amplitude (variabilidade) dos dados em relação à média.
+Desvio Padrão : É usado para medir a variabilidade entre os números em um conjunto de dados. Assim como o nome sugere, o desvio padrão é um padrão de desvio (distância) da média. Em termos bem simples, o DESVIO PADRÃO é a DISTÂNCIA MÉDIA, da MÉDIA. sqrt(variância).
+O desvio padrão é uma medida comum de consistência em aplicações de negócios, principalmente na área de controle de qualidade. NUNCA SERÁ UM VALOR NEGATIVO.
+
+Notas 100, 100, 100, 50, 50, 50 = média 75
+Média: 75
+Variância: 750 
+Desvio Padrão: 27.39
+
+Notas 75, 74, 76, 77, 75, 74 = média 75
+Média: 75
+Variância: 1.37
+Desvio Padrão: 1.17
+
+Amplitude Total : É a diferença entre o maior valor e o menor valor de um conjunto de dados. É a mais fácil das medidas de variabilidade, pode ser facilmente calculada, mas tem algumas limitações e uma delas é a forte influência de outliers (valores extremos).
+Ex.: 23, 35, 40, 44, 50, 51
+Amplitude Total = Maior Valor - Menor valor
+Amplitude Total = 51 - 23 = 28
+
+Coeficiente de Variação(CV) : Mede o desvio padrão em termos de percentual da média. Um CV alto, indica alta variabilidade dos dados, ou seja, menos consistência dos dados. Um CV menor, indica mais consistência dentro do conjunto de dados.
+Quando comparamos a consistência entre 2 conjuntos de dados em relação a suas médias, é melhor feito quando utilizamos o CV. Nos é entregue uma medida comum-percentagem - que podemos usar para comparar 2 conjuntos de dados.
+Ex.: Preço médio ações Nike x Adidas
+CV = (s/x) * 100
+s = Desvio Padrão
+x = Média
+
+Nike -> CV = 5.10*55.62 * 100 = 9.2% || A nike possui um desvio padrão maior do que a Adidas
+Adidas -> CV = 3.60/24.86 * 100 = 14.5%  || Porém o Coeficiente de Variação da Nike é menor que o CV da Adidas.
+
+Um investidor se sentiria mais seguro em adquirir ações da Nike, pois o preço das ações teria uma variação menor, podendo assim evitar perdas e permitindo ao investidor ter um investimento mais seguro.
+
+---------------------------------------------------------------------
+Além da tendência central, os dados podem ser medidos em termos de posição relativa, que compara a posição de um valor, em relação a outro valor dentro do conjunto de dados.
+
+Percentil e Quartil são as medidas mais comuns de posição relativa.
+A maneira mais fácil de informar a posição RELATIVA é por meio do uso do Percentil.
+Percentil != Porcentagem
+Porcentagem : É uma proporção calculada em relação a uma grandeza de 100 unidades, pode ser encontrada multiplicando o valor numérico por 100.
+Percentil : Ponto da distribuição dos resultados ordenados da amostra, ou seja, por uma ordem crescente dos dados que podem estar até a 100 partes de igual amplitude.
+Quartil : É simplesmente um específico percentil de interesse.
+1º Quartil - 25% percentil
+2º Quartil - 50% percentil = Mediana
+3º Quartil - 75% percentil
+4º Quartil - 100% percentil
+
+Intervalo interquartil -> Q3 - Q1
+Intervalo semi-interquartil -> (Q3-Q1)/2
+Quartil médio -> (Q3+Q1)/2
+
+---------------------------------------------------------------------
+Ferramentas de Análise de Dados:
+• Métodos Gráficos ou Tabulares:
+    - Tabela de Frequência;
+    - Tabela de Contigência;
+    - Gráficos de Linhas;
+    - Gráficos de Barras;
+    - Gráfico de Pareto;
+    - Histogramas;
+    - Gráficos de Caixa (box-plots);
+    - Diagramas de dispersão;
+    - Gráfico Temporal;
+    - Ogiva (frequência cumulativa);
+    - Ramos e folhas;
+    - Gráficos de Pontos;
+    - Gráficos de Quartis.
+• Métodos Numéricos:
+    - Média;
+    - Mediana;
+    - Moda;
+    - Quarits;
+    - Desvio Padrão;
+    - Variância;
+    - Intervalo Interquartil;
+    - Coeficiente de Variação;
+    - Coeficiente de Assimetria;
+    - Curtose;
+    - Coeficiente de Correlação Linear;
+    - Covariância;
+    - Coeficientes de Associação.
+
+Tabela de Frequência : Indica a frequência observada, ou seja, mostra a frequência com que cada observação aparece nos dados.
+    • Frequência absoluta = Indica o número de eventos observados.
+    • Frequência relativa = Em percentuais ou como fração.
+    • Frequência cumulativa = Frequência absoluta ou relativa até um determinado ponto e não apenas em um valor. É o total acumulado, ou seja, a soma de todas as classes anteriores, até a classe atual.
+
+Tabela de Contigência : Analisar dados com mais de uma variável envolvida.
+    • Conheça a diferença entre as porcentagens e números totais. As porcentagens são frequentemente a estatística mais adequada para a comparação entre diferentes resultados.
+    • Certifique-se, com relação aos dados numéricos, se os grupos da tabela não se sobrepõem e que estejam divididos de maneira equilibrada para se chegar a uma comparação imparcial.
+    • Observe atentamente as unidades e como elas estão apresentadas na tabela.
+    • Observe o modo como a informação é apresentada. Frequentemente, as tabelas são projetadas para diminuir a importância de certos pontos ao mesmo tempo em que enfatizam apenas os pontos que são convenientes para quem criou a tabela.
+
+Gráfico de Barras : Apresenta a frequência absoluta ou relativa (NÃO cumulativa), ou seja, quantas observações, ou a fração de observações para um dado valor da variável em estudo (ou classe de valores). A altura das barras representa o que foi mais observado.
+As barras podem ser: 
+    • Verticais: Gráfico de colunas;
+    • Horizontais: Onde os valores ficam localizados no eixo das absissas.
+
+Gráfico de Barras Segmentado : Permite agrupar ou categorizar os dados em subconjuntos. Representam os valores de outra variável que pode ser parte de um total do mesmo intervalo.
+    • Fique atento para a escala do gráfico de barras (as unidades na qual a altura das barras está representada) e determine se esta é uma representação apropriada da informação.
+    • Não pense que a informação contida em um gráfico de barras é tudo que você precisa saber; esteja pronto para ir mais fundo caso seja necessário.
+
+Gráfico de Pareto : No diagrama de Pareto são inseridos valores no formato de percentual o que facilita avaliar o efeito acumulado dos itens pesquisados, auxilia a encontrar pequenos problemas que são críticos e podem causar grandes perdas.
+    • Permite organizar as linhas na ordem decrescente de importância das causas, ou seja, a causa mais importante primeiro.
+    • Permite formar uma tabela listando as causas e sua frequência como uma porcentagem.
+    • Geralmente a linha do eixo Y forma uma curva. Esta linha tem a função de separar as causas importantes, que ficam à esquerda da linha, das causas menos importantes ou triviais, que ficam à direita.
+
+Gráfico de Pizza : Gráficos de pizza não são ideais para visualizar comparações ou evoluções temporais. Use APENAS para fornecer a visualização de um caso, em um instante!
+    • Verifique se a soma das porcentagens é igual a 100% ou se é próximo desse valor (erros de arredondamentos devem ser muito pequenos).
+    • Fique atento às fatias chamadas "outras/outros" que sejam maiores que várias outras fatias.
+    • Procure pela informação do número total de unidades, para que assim você possa determinar qual era o taamando da pizza antes de ser dividida nas fatias que você está observando.
