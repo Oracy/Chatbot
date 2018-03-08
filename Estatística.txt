@@ -21,7 +21,7 @@ A coleta, a organização e a descrição dos dados estão a cargo da ESTATÍSTI
 
 ESTATÍSTICA é a CIÊNCIA, parte da MATEMÁTICA APLICADA, que fornece métodos para COLETAR, DESCREVER, ANALISAR, APRESENTAR e interpretar dados, para a utilização dos mesmos na TOMADA DE DECISÕES.
 
----------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 População x Amostra
 
 População : São todos os elementos distintos, indivíduos, itens ou objetos - cujas as características estejam sendo estudadas.
@@ -41,8 +41,7 @@ Estatística Inferencial : Realiza deduções e conclusões sobre a população,
     • Tempo
     • Necessidade 
 
----------------------------------------------------------------------
-Observações x Variáveis
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Observações x Variáveis
 Dado: Valores coletados através de observação ou medição.
 Informação: Dados que são transformados em fatos relevantes e usados para um propósito específico.
 
@@ -146,7 +145,7 @@ Adidas -> CV = 3.60/24.86 * 100 = 14.5%  || Porém o Coeficiente de Variação d
 
 Um investidor se sentiria mais seguro em adquirir ações da Nike, pois o preço das ações teria uma variação menor, podendo assim evitar perdas e permitindo ao investidor ter um investimento mais seguro.
 
----------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Além da tendência central, os dados podem ser medidos em termos de posição relativa, que compara a posição de um valor, em relação a outro valor dentro do conjunto de dados.
 
 Percentil e Quartil são as medidas mais comuns de posição relativa.
@@ -164,7 +163,7 @@ Intervalo interquartil -> Q3 - Q1
 Intervalo semi-interquartil -> (Q3-Q1)/2
 Quartil médio -> (Q3+Q1)/2
 
----------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Ferramentas de Análise de Dados:
 • Métodos Gráficos ou Tabulares:
     - Tabela de Frequência;
@@ -224,3 +223,56 @@ Gráfico de Pizza : Gráficos de pizza não são ideais para visualizar compara�
     • Verifique se a soma das porcentagens é igual a 100% ou se é próximo desse valor (erros de arredondamentos devem ser muito pequenos).
     • Fique atento às fatias chamadas "outras/outros" que sejam maiores que várias outras fatias.
     • Procure pela informação do número total de unidades, para que assim você possa determinar qual era o taamando da pizza antes de ser dividida nas fatias que você está observando.
+
+Gráfico de Linhas : É um tipo de gráfico construído pela união dos pontos x e y formando uma espécie de reta, esse gráfico permite representar tendências e relacionamento entre variáveis.
+    • Examine a escala do eixo vertical assim como o eixo horizontal. Os resultados podem parecer mais ou menos drásticos do que realmente são com apenas uma alteração da escala.
+    • Leve em consideração as unidades utilizadas no gráfico e assegure-se de que elas sejam apropriadas.
+    • Um gráfico de linhas mostra apenas o que está acontecendo. O porquê de algo estar ocorrendo é uma outra história.
+
+Histogramas : Pode resumir as características de dados numéricos, o objetivo do histograma é visualizar de que forma os dados se distribuem pelos diversos valores diferentes dos quais estão observados, onde é mais comum, onde é mais raro, eles são usados para variáveis QUANTITATIVAS. 
+    • Basicamente, o histograma pode ser usado para obter três características principais dos dados numéricos: o MODO como os dados se DISTRIBUEM (simétrico, distorcido para a direita, distorcido para a esquerda), a VARIABILIDADE encontrada nos dados e onde fica o CENTRO dos dados.
+    • Examine a escala utilizada para o eixo vertical (frequência ou frequência relativa) e tome cuidado com resultados que pareçam exagerados ou subestimados devido ao uso de escalas inadequadas.
+    • Observe a escala utilizada para os grupos de variáveis numéricas no eixo horizontal. Se a variação para cada grupo for muito pequena, os dados podem parecer mais suaves do que realmente são. 
+
+Gráfico de Dispersão (Scatter Plot) : Mostra a realação entre duas variáveis quantitativas. Cada par observado de duas variáveis (x, y) é marcado como um ponto a partir de suas coordenadas.
+
+Gráfico de Caixa (BoxPlot) : Exibe a distribuição de dados com base no resumo de cinco números: Mínimo, Primeiro Quartil, Mediana, Terceiro Quartil e Máximo.
+
+Gráfico Temporal ou Sequencial : Mostra a evolução de uma variável ao longo do tempo. É criado da mesma forma que o diagrama de dispersão, afinal é um diagrama de dispersão onde a variável x é o tempo.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Probabilidade
+É um valor numérico que indica a chance, ou a probabilidade, de um evento específico ocorrer. Este valor numérico vai estar entre 0 e 1.
+Se um evento não possui chance de ocorrer, sua probabilidade é 0 (ou 0%).
+Se temos certeza sobre a ocorrência do evento, sua probabilidade é 1 (ou 100%).
+
+Evento x Experimento
+Experimento : É o processo de medir ou observar uma atividade com o propósito de coletar dados. Ex.: Jogar um dado.
+Espaço da Amostra : Todos os possíveis resultados de um experimento. Ex.: Ao jogar um dado, todos os resultados possíveis são {1, 2, 3, 4, 5, 6}
+Evento : Um ou mais resultados de um experimento. O resultado e/ou resultados são um subconjunto do espaço da amostra.
+Evento Simples : Um evento com um único resultado na sua forma mais básica, que não pode ser simplificado.
+
+                   Experimento              -               Espaço da Amostra
+Jogar uma moeda                             -   {cara, coroa}
+Responder uma questão de múltipla escolha   -   {a, b, c, d, e}
+Inspecionar um produto                      -   {defeituoso, não defeituoso}
+Puxar uma carta de um baralho padrão        -   {52 cartas de um baralho padrão}
+
+Probabilidade x Possibilidade !=
+Probabilidade é a medida da possibilidade de um evento ocorrer. Em outras palavras, se a chance de chover amanhã é de 40%, há menos possibilidades que chova amanhã, do que não chova.
+
+Probabilidade Clássica : É usada quando nós sabemos o número de possíveis resultados do evento de interesse e podemos calcular a probabilidade do evento com a seguinte fórmula:
+P(A) = Número de possíveis resultados do evento A / Número total de possíveis resultados dentro do espaço da amostra 
+Onde: P(A) é a probabilidade de um evento ocorrer.
+P(A) = S/N
+S = Resultado de interesse.
+N = resultados possíveis.
+Ex.: Jogar um dado ---- P(A) = 1/6 = 0,167 - 16.7% de probabilidade de jogarmos um dado e conseguirmos a face com o número desejado.
+
+Probabilidade Empírica : É usada quando nós NÃO sabemos o número de possíveis resultados do evento de interesse.
+Para calcularmos a probabilidade Empírica, usamos a fórmula:
+P(A) = Frequência em que o evento A ocorre / Número total de observações
+Onde: P(A) é a probabilidade de um evento ocorrer.
+
+Probabilidade Subjetiva : É usada quando a Probabilidade Clássica ou Empírica não podem ser usadas.
+Intr. Prob. P1 15:20
