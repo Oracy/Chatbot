@@ -275,4 +275,80 @@ P(A) = Frequência em que o evento A ocorre / Número total de observações
 Onde: P(A) é a probabilidade de um evento ocorrer.
 
 Probabilidade Subjetiva : É usada quando a Probabilidade Clássica ou Empírica não podem ser usadas.
-Intr. Prob. P1 15:20
+Quando os dados ou experimentos não estão disponíveis para calcular a probabilidade.
+Nestes casos, confiamos na experiência ou julgamento para estimar as probabilidades.
+Exemplos resultam em intuição ou estimativa.
+
+Regras Básica de Probabilidade:
+    • Se P(A) = 1, então podemos garantir que o evento A ocorrerá.
+    • Se P(A) = 0, então podemos garantir que o evento A NÃO ocorrerá.
+    • A probabilidade de qualquer evento sempre será entre 0 e 1. probabilidades nunca podem ser negativas ou maior que 1.
+    • A soma de todas as probabilidades para um evento simples, em um espaço de amostra, será igual a 1.
+    • O complemento do evento A é definido como todos os resultados em um espaço de amostra, que não fazem parte do evento A, ou seja: 
+        - P(A) = 1 0 P(A'), onde P(A') é o complemento do evento A.
+
+Regras Básicas de Probabilidade Para Mais de Um Evento
+Intersecção de Eventos : A intersecção de eventos A e B, representa o número de vezes em que os eventos A e B ocorrem ao mesmo tempo.
+União de Eventos : A união dos eventos A e B representa o número de vezes em que o evento A ou o evento B ocorrem juntos.
+Adição de Eventos : Utilizar da Regra de Adição em probabilidade, para calcular a probabilidade de união de eventos, ou seja, a probabilidade do Evento A, Evento B ou ambos, ocorrerem.
+    • Eventos Mutuamente Exclusivos : 
+        - São aqueles que não podem ocorrer ao mesmo tempo durante um experimento.
+            · P(A ou B) = P(A) + P(B) | literalmente.
+    • Eventos Não Mutuamente Exclusivos : 
+        - São aqueles que podem ocorrer ao mesmo tempo durante um experimento.
+            · P(A ou B) = P(A) + P(B) - P(A e B)
+Regra da adição - Depende se 2 eventos são ou não mutuamente exclusivos.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Teorema de Bayes
+O Teorema de Bayes é a base de um dos principais algoritmos de Machine Learning, o Naïve Bayes
+Se soubermos alguma coisa sobre a probabilidade do evento B ocorrer, considerando que o evento A já ocorreu, nós podemos calcular o reverso, ou seja, podemos calcular a probabilidade do evento A ocorrer, considerando que o evento B ocorra.
+P(A|B) = (P(B|A)P(A))/P(B)
+
+Exemplo: Em primeiro lugar, sua tia tem o câncer de mama (CA) ou não (não-CA)
+Essas alternativas, mutuamente excludentes, podem ser colocadas em uma tabela.
+Podemos iniciar o raciocínio pela probabilidade de cada alternativa "antes de fazer qualquer teste".
+É a chamada a priori - ter câncer ou não ter.
+Como em média 1% das mulheres de 40 anos têm um tumor de mama, a probabilidade a priori de sua tia ter um câncer é de 1% (0,01) e de não ter é de 99% (0,99).
+
+                            Tem câncer      Não tem câncer
+Probabilidade a priori         0,01              0,99
+
+
+Agora vamos incorporar o resultado da mamografia. Se o câncer de mama está presente, a probabilidade condicional de a mamografia ser positiva é 0,80 (80%), e se não está presente é de 0,096 (9,6%).
+
+                                Tem câncer          Não tem câncer
+Probabilidade a priori             0,01                 0,99
+Probabilidade condicional          0,8                  0,096
+Probabilidade conjunta      0,01 * 0,8 = 0,008   0,99 * 0,096 = 0,095
+Normalização                        (0,008 + 0,095 = 0,103)
+Probabilidade a posterioro  0,008/0,103 = 0,077  0,095/0,103 = 0,922
+
+
+Portanto, o raciocínio bayesiano nos levou, de modo muito simples, a concluir que a probabilidade a posteriori (ou seja, após o teste) de sua tia não ter um câncer de mama é de 0,92 (92%) e você pode tranquilizá-la.
+
+Fórmula para o Teorema de Bayes:
+P(B|A) = (P(A|B)P(B))/P(A|B)P(B)+P(A|B)P(B)+P(A|B)P(B)+...+P(A|B)P(B)
+
+O Teorema de Bayes relaciona informações, com a probabilidade de ocorrência, para gerar uma nova probabilidade quando os fatos acontecem de maneira relacionada ou são dependentes.
+Essas probabilidades podem e devem ser revistas à medida que são observados novos fatos que podem alterar a probabilidade de cada um dos acontecimentos envolvidos.
+O Teorema de Bayes utiliza incertezas. Entretanto, ele é alimentado por meio de probabilidades que podem ser estimadas ou sugeridas.
+Assim, o Teorema de Bayes trabalha primeiramente com informações prévias, dessa forma, ao obter novas informações aplica-se o teorema e alcançam-se as probabilidades posteriores.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tipos de Distribuição de Probabilidade
+Distribuição de Probabilidade : Descreve a chance que uma variável pode assumir ao longo de um espaço de valores.
+A soma de todos os valores de uma Distribuição de Probabilidade deve ser igual a 1.
+A Probabilidade de Ocorrência de um evento deve ser maior do que 0 e menor do que 1.
+    • Discreta
+        - Descreve quantidades aleatórias de dados que podem assumir valores finitos; Os principais tipos de distribuição de probabilidade para variáveis discretas são:
+            - Binomial
+            - Poisson
+            - Hipergeométrica
+            - Bernoulli
+    • Contínua
+        - Descreve quantidades aleatórias de dados contínuos que podem assumir valores infinitos. Os principais tipos de distribuição de probabilidade para variáveis contínuas são:
+            - Uniforme
+            - Exponencial
+            - Gama
+            - Chi-Quadrado
+    • Normal
+        - Uma variável randômica contínua que segue uma Distribuição de Probabilidade Normal tem uma série de características distintas.
