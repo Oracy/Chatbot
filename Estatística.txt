@@ -362,3 +362,8 @@ Variáveis Contínuas : São tipicamente números inteiros como 0, 7 ou 1000 e s
     • Tempo de duração de vôo.
     • Tempo gasto por um cliente ao telefone, com uma companhia de TV a cabo.
     • Peso das caixas de biscoito em uma fábrica de alimentos.
+        - Extensões
+        - Massa
+        - Tempo decorrido
+
+Tipos de Distribuição de Probabilidade 05:55
