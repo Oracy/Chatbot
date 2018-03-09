@@ -352,3 +352,13 @@ A Probabilidade de Ocorrência de um evento deve ser maior do que 0 e menor do q
             - Chi-Quadrado
     • Normal
         - Uma variável randômica contínua que segue uma Distribuição de Probabilidade Normal tem uma série de características distintas.
+
+Variáveis (randômicas) Discretas : São números inteiros, gerados a partir de resultados de experimentos.
+    • Registrar o número de clientes que fazem contato telefônico com a central de suporte de um banco.
+    • Randomicamente selecionar 6 clientes que entram em uma loja de celulares e contar quantos assinam um plano pós-pago.
+    • Solicitar que cada cliente que deixa um hotel, avalie seu grau de satisfação com o serviço prestado.
+
+Variáveis Contínuas : São tipicamente números inteiros como 0, 7 ou 1000 e são resultado da contagem de observações que fazemos durante os experimentos. Normalmente são medidos e não contados, como no caso dos valores discretos.
+    • Tempo de duração de vôo.
+    • Tempo gasto por um cliente ao telefone, com uma companhia de TV a cabo.
+    • Peso das caixas de biscoito em uma fábrica de alimentos.
